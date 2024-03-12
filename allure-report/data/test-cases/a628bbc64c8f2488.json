@@ -1,0 +1,120 @@
+{
+  "uid" : "a628bbc64c8f2488",
+  "name" : "Размещение заказа с самокатами разных цветов",
+  "fullName" : "testsOrder.TestParamOrder.OrderingWithScootersInDifferentColors[Цвет самоката: [GRAY]]",
+  "historyId" : "f5250d895efa97c2b50b12f58405b6dd",
+  "time" : {
+    "start" : 1710053217391,
+    "stop" : 1710053221404,
+    "duration" : 4013
+  },
+  "description" : "Проверка на корректность размещения заказа с самокатами разных цветов",
+  "descriptionHtml" : "<p>Проверка на корректность размещения заказа с самокатами разных цветов</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка на корректность размещения заказа с самокатами разных цветов",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание заказа",
+      "time" : {
+        "start" : 1710053217391,
+        "stop" : 1710053219395,
+        "duration" : 2004
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "modelOrder",
+        "value" : "order.ModelOrder@314b0d53"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Cancel test order",
+      "time" : {
+        "start" : 1710053219416,
+        "stop" : 1710053221404,
+        "duration" : 1988
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Отмена заказа",
+        "time" : {
+          "start" : 1710053219416,
+          "stop" : 1710053221403,
+          "duration" : 1987
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "track",
+          "value" : "422870"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testsOrder"
+  }, {
+    "name" : "testClass",
+    "value" : "testsOrder.TestParamOrder"
+  }, {
+    "name" : "testMethod",
+    "value" : "OrderingWithScootersInDifferentColors[Цвет самоката: [GRAY]]"
+  }, {
+    "name" : "suite",
+    "value" : "testsOrder.TestParamOrder"
+  }, {
+    "name" : "host",
+    "value" : "WIN-I3DEO9FCV5A"
+  }, {
+    "name" : "thread",
+    "value" : "25996@WIN-I3DEO9FCV5A.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a628bbc64c8f2488.json",
+  "parameterValues" : [ ]
+}
