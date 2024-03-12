@@ -1,0 +1,208 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testsCourier",
+    "children" : [ {
+      "name" : "courierCanNotBeCreatedWithoutPassword",
+      "uid" : "e100c9b49bfc2b19",
+      "parentUid" : "adcdc19d535076320c6036b116088163",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710053154735,
+        "stop" : 1710053160472,
+        "duration" : 5737
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "courierCanNotBeCreatedWithSameLogin",
+      "uid" : "f35d506851987616",
+      "parentUid" : "adcdc19d535076320c6036b116088163",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710053160596,
+        "stop" : 1710053163188,
+        "duration" : 2592
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "courierCanNotBeCreatedWithoutLogin",
+      "uid" : "16e541a5e2d0836c",
+      "parentUid" : "adcdc19d535076320c6036b116088163",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710053163190,
+        "stop" : 1710053165195,
+        "duration" : 2005
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "courierCanNotBeCreatedWithoutLoginAndPassword",
+      "uid" : "e49a37a93a599afc",
+      "parentUid" : "adcdc19d535076320c6036b116088163",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710053165198,
+        "stop" : 1710053167193,
+        "duration" : 1995
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "courierCanBeCreated",
+      "uid" : "ab85d3e59d1115af",
+      "parentUid" : "adcdc19d535076320c6036b116088163",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710053167196,
+        "stop" : 1710053172209,
+        "duration" : 5013
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "courierLoginErrorEmptyLogin",
+      "uid" : "a59c434ed5df9067",
+      "parentUid" : "adcdc19d535076320c6036b116088163",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710053172214,
+        "stop" : 1710053176237,
+        "duration" : 4023
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "courierLoginErrorEmptyLoginAndPassword",
+      "uid" : "6773f935646ad93f",
+      "parentUid" : "adcdc19d535076320c6036b116088163",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710053176239,
+        "stop" : 1710053180253,
+        "duration" : 4014
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "courierLoginValid",
+      "uid" : "1c4159fcda180fa6",
+      "parentUid" : "adcdc19d535076320c6036b116088163",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710053180256,
+        "stop" : 1710053186267,
+        "duration" : 6011
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "courierLoginErrorAccountNotFound",
+      "uid" : "7e53d530c09fe8e4",
+      "parentUid" : "adcdc19d535076320c6036b116088163",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710053186270,
+        "stop" : 1710053190025,
+        "duration" : 3755
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "courierLoginErrorEmptyPassword",
+      "uid" : "ae67f2855d02337b",
+      "parentUid" : "adcdc19d535076320c6036b116088163",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710053190027,
+        "stop" : 1710053193201,
+        "duration" : 3174
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "adcdc19d535076320c6036b116088163"
+  }, {
+    "name" : "testsOrder",
+    "children" : [ {
+      "name" : "getOrderList",
+      "uid" : "e71693e0f076eb61",
+      "parentUid" : "1c361225c04e5b1a98b1cb062a3ab30c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710053193204,
+        "stop" : 1710053214180,
+        "duration" : 20976
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "OrderingWithScootersInDifferentColors[Цвет самоката: [BLACK]]",
+      "uid" : "8cee3a83cdcbe98",
+      "parentUid" : "1c361225c04e5b1a98b1cb062a3ab30c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710053214200,
+        "stop" : 1710053217389,
+        "duration" : 3189
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "OrderingWithScootersInDifferentColors[Цвет самоката: [GRAY]]",
+      "uid" : "a628bbc64c8f2488",
+      "parentUid" : "1c361225c04e5b1a98b1cb062a3ab30c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710053217391,
+        "stop" : 1710053221404,
+        "duration" : 4013
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "OrderingWithScootersInDifferentColors[Цвет самоката: [BLACK, GRAY]]",
+      "uid" : "278007a99931b9",
+      "parentUid" : "1c361225c04e5b1a98b1cb062a3ab30c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710053221406,
+        "stop" : 1710053225429,
+        "duration" : 4023
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "OrderingWithScootersInDifferentColors[Цвет самоката: []]",
+      "uid" : "64a7a79818d2db75",
+      "parentUid" : "1c361225c04e5b1a98b1cb062a3ab30c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1710053225431,
+        "stop" : 1710053228165,
+        "duration" : 2734
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1c361225c04e5b1a98b1cb062a3ab30c"
+  } ]
+}

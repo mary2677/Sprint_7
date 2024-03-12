@@ -1,0 +1,8 @@
+constant\ScooterEndpoints.class
+order\PartOrder.class
+courier\Courier.class
+order\ModelOrder.class
+courier\AssertCourier.class
+courier\ModelCourier.class
+courier\PartCourier.class
+courier\RandomCourier.class

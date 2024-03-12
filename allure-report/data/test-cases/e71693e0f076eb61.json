@@ -1,0 +1,84 @@
+{
+  "uid" : "e71693e0f076eb61",
+  "name" : "Получение списка заказов",
+  "fullName" : "testsOrder.OrderListTest.getOrderList",
+  "historyId" : "71f89860178fd97712c4789810443b06",
+  "time" : {
+    "start" : 1710053193204,
+    "stop" : 1710053214180,
+    "duration" : 20976
+  },
+  "description" : "Проверка, что список заказов успешно получен",
+  "descriptionHtml" : "<p>Проверка, что список заказов успешно получен</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка, что список заказов успешно получен",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Получение списка заказов",
+      "time" : {
+        "start" : 1710053193211,
+        "stop" : 1710053213353,
+        "duration" : 20142
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testsOrder"
+  }, {
+    "name" : "testClass",
+    "value" : "testsOrder.OrderListTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "getOrderList"
+  }, {
+    "name" : "suite",
+    "value" : "testsOrder.OrderListTest"
+  }, {
+    "name" : "host",
+    "value" : "WIN-I3DEO9FCV5A"
+  }, {
+    "name" : "thread",
+    "value" : "25996@WIN-I3DEO9FCV5A.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e71693e0f076eb61.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,168 @@
+{
+  "uid" : "ae67f2855d02337b",
+  "name" : "Логин курьера с пустым полем пароля",
+  "fullName" : "testsCourier.TestsLogin.courierLoginErrorEmptyPassword",
+  "historyId" : "2a910a23068baf020a81bb7e68ec15f7",
+  "time" : {
+    "start" : 1710053190027,
+    "stop" : 1710053193201,
+    "duration" : 3174
+  },
+  "description" : "Проверка что курьер не может войти в систему без пароля",
+  "descriptionHtml" : "<p>Проверка что курьер не может войти в систему без пароля</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка что курьер не может войти в систему без пароля",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание тестовых данных для  курьера",
+      "time" : {
+        "start" : 1710053190027,
+        "stop" : 1710053191286,
+        "duration" : 1259
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Создание нового курьера с рандомными данными",
+        "time" : {
+          "start" : 1710053190027,
+          "stop" : 1710053190027,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Регистрация нового курьера",
+        "time" : {
+          "start" : 1710053190027,
+          "stop" : 1710053191286,
+          "duration" : 1259
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "modelCourier",
+          "value" : "courier.ModelCourier@79ef8115"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Авторизация курьера",
+      "time" : {
+        "start" : 1710053191286,
+        "stop" : 1710053193187,
+        "duration" : 1901
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "courier",
+        "value" : "courier.Courier@62cbe18c"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Проверка ответа сервера при логине с неполными данными",
+      "time" : {
+        "start" : 1710053193187,
+        "stop" : 1710053193201,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "response",
+        "value" : "io.restassured.internal.ValidatableResponseImpl@2199e1a4"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Удаление курьера",
+      "time" : {
+        "start" : 1710053193201,
+        "stop" : 1710053193201,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testsCourier"
+  }, {
+    "name" : "testClass",
+    "value" : "testsCourier.TestsLogin"
+  }, {
+    "name" : "testMethod",
+    "value" : "courierLoginErrorEmptyPassword"
+  }, {
+    "name" : "suite",
+    "value" : "testsCourier.TestsLogin"
+  }, {
+    "name" : "host",
+    "value" : "WIN-I3DEO9FCV5A"
+  }, {
+    "name" : "thread",
+    "value" : "25996@WIN-I3DEO9FCV5A.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae67f2855d02337b.json",
+  "parameterValues" : [ ]
+}
